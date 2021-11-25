@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/background3">
+
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bpg_nino_normal"
+        android:text="შექმენი შენი პროფილი"
+        android:textColor="@color/white"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/emailET"
+        android:layout_width="393dp"
+        android:layout_height="wrap_content"
+        android:background="#50ffffff"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:drawablePadding="20dp"
+        android:fontFamily="@font/bpg_nino_normal"
+        android:hint="შეიყვანეთ თქვენი მეილი"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        />
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/passwordET"
+        android:layout_width="393dp"
+        android:layout_height="wrap_content"
+        android:background="#50ffffff"
+        android:drawableStart="@drawable/ic_baseline_receipt_24"
+        android:drawablePadding="20dp"
+        android:fontFamily="@font/bpg_nino_normal"
+        android:hint="შეიყვანეთ თქვენი პაროლი"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/firstnameET"
+        android:layout_width="393dp"
+        android:layout_height="wrap_content"
+        android:background="#50ffffff"
+        android:drawableStart="@drawable/ic_baseline_drive_file_rename_outline_24"
+        android:drawablePadding="20dp"
+        android:fontFamily="@font/bpg_nino_normal"
+        android:hint="შეიყვანეთ თქვენი სახელი"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        />
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/lastnameET"
+        android:layout_width="393dp"
+        android:layout_height="wrap_content"
+        android:background="#50ffffff"
+        android:drawableStart="@drawable/ic_baseline_input_24"
+        android:drawablePadding="20dp"
+        android:fontFamily="@font/bpg_nino_normal"
+        android:hint="შეიყვანეთ თქვენი გვარი"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        />
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/usernameET"
+        android:layout_width="393dp"
+        android:layout_height="wrap_content"
+        android:background="#50ffffff"
+        android:drawableStart="@drawable/ic_baseline_verified_user_24"
+        android:drawablePadding="20dp"
+        android:fontFamily="@font/bpg_nino_normal"
+        android:hint="შეიყვანეთ თქვენი USERNAME"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        />
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="რეგისტრაცია"
+        android:backgroundTint="#50A33333"
+        />
+    <TextView
+        android:id="@+id/alreadyRegisteredTV"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="უკვე ხართ დარეგისტრირებული?"
+        android:textColor="@color/white"/>
+
+
+</LinearLayout>

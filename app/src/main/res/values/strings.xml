@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RegistrationForm</string>
+    <string name="authorization">ავტორიზაცია</string>
+    <string name="enter_mail">შეიყვანეთ თქვენი Username</string>
+    <string name="enter_pass">შეიყვანეთ თქვენი პაროლი</string>
+    <string name="login">შესვლა</string>
+    <string name="register">რეგისტრაცია</string>
+</resources>
